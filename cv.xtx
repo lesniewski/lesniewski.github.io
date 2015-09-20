@@ -1,0 +1,199 @@
+% Publications of Chris Lesniewski-Laas in CrossTeX format.
+% Updated March 2010.
+%
+% For information on CrossTeX (written by Emin Gün Sirer), see
+% http://www.cs.cornell.edu/people/egs/crosstex/
+
+
+@string{ref   = "Refereed Conference, Workshop, and Journal Publications"}
+@string{other = "Other Publications"}
+
+
+@include workshops-cs
+@include conferences-cs
+@include journals-cs
+
+
+@location{Milan,   city="Milan",            country=Italy}
+@location{Glasgow, city="Glasgow",          country=Scotland}
+@location{BigSky,  city="Big Sky, Montana", country=USA}
+
+
+@author{ctl,   name = "Chris Lesniewski-Laas"}
+@author{baf,   name = "Bryan Ford"}
+@author{jas,   name = "Jacob Strauss"}
+@author{srhea, name = "Sean Rhea"}
+@author{jmp,   name = "Justin Mazzola Paluska"}
+@author{rtm,   name = "Robert Morris"}
+@author{mfk,   name = "M. Frans Kaashoek"}
+
+
+@extend{ccs,            [year=2007] month = oct, address = Alexandria }
+@extend{usenixsecurity, [year=2003] month = aug, address = DC }
+@extend{nsdi,           [year=2010] month = apr, address = SanJose }
+
+
+@conference{esorics,
+  shortname = "ESORICS",
+  longname = "European Symposium On Research In Computer Security",
+  [year=2005] month = sep, address = Milan,
+}
+
+@workshop{socialnets,
+  shortname = "Socialnets Workshop",
+  longname = "Workshop on Social Network Systems",
+  [year=2008] month = apr, address = Glasgow,
+}
+
+@workshop{hotstorage,
+  shortname = "HotStorage Workshop",
+  longname = "SOSP Workshop on Hot Topics in Storage and File Systems (HotStorage)",
+  [year=2009] month = oct, address = BigSky,
+}
+
+
+
+@inproceedings{whanau:nsdi10,
+  title = "Wh\=anau: A Sybil-proof Distributed Hash Table",
+  author = "ctl and mfk",
+  booktitle = nsdi,
+  year = 2010,
+  category = ref,
+
+  Abstract = "http://pdos.csail.mit.edu/papers/whanau-nsdi10-abstract.html",
+  PDF      = "http://pdos.csail.mit.edu/papers/whanau-nsdi10.pdf",
+  PS       = "http://pdos.csail.mit.edu/papers/whanau-nsdi10.ps.gz",
+}
+
+@inproceedings{eyo:hotstorage09,
+  title = "Device Transparency: a new model for mobile storage",
+  author = "jas and ctl and jmp and baf and rtm and mfk",
+  booktitle = hotstorage,
+  year = 2009,
+  category = ref,
+
+  Abstract = "http://pdos.csail.mit.edu/papers/eyo-hotstorage09-abstract.html",
+  PDF      = "http://pdos.csail.mit.edu/papers/eyo-hotstorage09.pdf",
+  PS       = "http://pdos.csail.mit.edu/papers/eyo-hotstorage09.ps.gz",
+}
+
+@techreport{whanau:tr09,
+  author = "ctl and mfk",
+  title = "Wh\=anaungatanga: Sybil-proof routing with social networks",
+  institution = "MIT",
+  number = "MIT-CSAIL-TR-2009-045",
+  year = 2009,
+  month = sep,
+  category = other,
+
+  Abstract = "http://hdl.handle.net/1721.1/46819",
+  PDF      = "http://dspace.mit.edu/bitstream/handle/1721.1/46819/MIT-CSAIL-TR-2009-045.pdf",
+  PS       = "http://dspace.mit.edu/bitstream/handle/1721.1/46819/MIT-CSAIL-TR-2009-045.ps",
+}
+
+@inproceedings{sybil:socialnets08,
+  title = "A Sybil-proof one-hop DHT",
+  author = ctl,
+  booktitle = socialnets,
+  year = 2008,
+  category = ref,
+
+  Abstract = "http://pdos.csail.mit.edu/papers/sybil-dht-socialnets08-abstract.html",
+  PDF      = "http://pdos.csail.mit.edu/papers/sybil-dht-socialnets08.pdf",
+  PS       = "http://pdos.csail.mit.edu/papers/sybil-dht-socialnets08.ps.gz",
+}
+
+@inproceedings{alpaca:ccs07,
+  title = "Alpaca: extensible authorization for distributed services",
+  author = "ctl and baf and jas and rtm and mfk",
+  booktitle = ccs,
+  year = 2007,
+  category = ref,
+
+  Abstract = "http://pdos.csail.mit.edu/papers/alpaca-ccs07-abstract.html",
+  PDF      = "http://pdos.csail.mit.edu/papers/alpaca-ccs07.pdf",
+  PS       = "http://pdos.csail.mit.edu/papers/alpaca-ccs07.ps.gz",
+}
+
+@inproceedings{uia:osdi06,
+  title = "Persistent personal names for globally connected mobile devices",
+  author = "baf and jas and ctl and srhea and mfk and rtm",
+  booktitle = osdi,
+  year = 2006,
+  category = ref,
+
+  Abstract = "http://pdos.csail.mit.edu/papers/uia:osdi06-abs.html",
+  HTML     = "http://pdos.csail.mit.edu/papers/uia:osdi06/",
+  PDF      = "http://pdos.csail.mit.edu/papers/uia:osdi06.pdf",
+  PS       = "http://pdos.csail.mit.edu/papers/uia:osdi06.ps.gz",
+}
+
+@inproceedings{uia:iptps06,
+  title = "User-relative names for globally connected personal devices",
+  author = "baf and jas and ctl and srhea and mfk and rtm",
+  booktitle = iptps,
+  year = 2006,
+  category = ref,
+
+  Abstract = "http://pdos.csail.mit.edu/papers/uia:iptps06-abs.html",
+  PDF      = "http://pdos.csail.mit.edu/papers/uia:iptps06.pdf",
+  PS       = "http://pdos.csail.mit.edu/papers/uia:iptps06.ps.gz",
+}
+
+@inproceedings{sybil:esorics05,
+  title = "Sybil-resistant DHT routing",
+  author = {George Danezis and ctl and mfk and Ross Anderson},
+  booktitle = esorics,
+  year = 2005,
+  category = ref,
+
+%  PDF      = "http://www.cl.cam.ac.uk/users/gd216/sybildht.pdf",
+  Abstract = "http://pdos.csail.mit.edu/papers/sybil-dht-esorics05-abstract.html",
+  PDF      = "http://pdos.csail.mit.edu/papers/sybil-dht-esorics05.pdf",
+  PS       = "http://pdos.csail.mit.edu/papers/sybil-dht-esorics05.ps.gz",
+}
+
+@article{ssl-splitting:compnet05,
+  title = "SSL splitting: securely serving data from untrusted caches",
+  author = "ctl and mfk",
+  journal = compnet,
+  publisher = Elsevier,
+  volume = 48,
+  number = 5,
+  pages = "763--779",
+  year = 2005,
+  month = aug,
+  category = ref,
+
+  Abstract = "http://pdos.csail.mit.edu/papers/ssl-splitting-compnet05-abstract.html",
+  HTML     = "http://dx.doi.org/10.1016/j.comnet.2005.01.006",
+  PDF      = "http://pdos.csail.mit.edu/papers/ssl-splitting-compnet05.pdf",
+  PS       = "http://pdos.csail.mit.edu/papers/ssl-splitting-compnet05.ps.gz",
+}
+
+@inproceedings{ssl-splitting:usenixsecurity03,
+  title = "SSL splitting: securely serving data from untrusted caches",
+  author = "ctl and mfk",
+  booktitle = usenixsecurity,
+  year = 2003,
+% pages = {187--199},
+  category = ref,
+
+  Abstract = "http://pdos.csail.mit.edu/papers/ssl-splitting-usenixsecurity03-abstract.html",
+  HTML     = "http://pdos.csail.mit.edu/papers/ssl-splitting-usenixsecurity03/",
+  PDF      = "http://pdos.csail.mit.edu/papers/ssl-splitting-usenixsecurity03.pdf",
+  PS       = "http://pdos.csail.mit.edu/papers/ssl-splitting-usenixsecurity03.ps.gz",
+}
+
+@mastersthesis{ssl-splitting:meng03,
+  title = "SSL splitting and Barnraising: cooperative caching with authenticity guarantees",
+  author = ctl,
+  school = "Massachusetts Institute of Technology",
+  year = 2003,
+  month = feb,
+  category = other,
+
+  Abstract = "http://pdos.csail.mit.edu/papers/ssl-splitting-ctl-meng-abstract.html",
+  PDF      = "http://pdos.csail.mit.edu/papers/ssl-splitting-ctl-meng.pdf",
+  PS       = "http://pdos.csail.mit.edu/papers/ssl-splitting-ctl-meng.ps.gz",
+}

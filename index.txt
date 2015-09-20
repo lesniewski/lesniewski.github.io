@@ -1,0 +1,179 @@
+============================
+Chris Lesniewski-Laas |ctl|_
+============================
+
+.. |ctl| replace:: ``<ctl>``
+.. _ctl: http://mailhide.recaptcha.net/d?k=01PpHeAsE3XXQz1XF1kMtN2g==&c=K3BUn9ipnLUNuv5T2FONaA==
+
+.. meta::
+   :base: http://lesniewski.org/
+
+.. title:: Chris Lesniewski-Laas | ctl | decentralized systems research
+
+.. header::
+  .. image:: images/jtu-salem-2007-09-01.jpg
+     :target: http://www.flickr.com/photos/jtu/1384582400/
+     :align: right
+     :class: float-right
+
+  .. raw:: html
+
+     <div id="dopplr-blog-badge-for-ctl" class="float-right">
+     <script type="text/javascript" src="http://www.dopplr.com/blogbadge/script/a83d3cbd4ecb8911d3a33a887832b672?div-id=dopplr-blog-badge-for-ctl">
+     </script></div>
+
+  .. raw:: html
+
+     <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+     <script>
+     new TWTR.Widget({
+       version: 2,
+       type: 'profile',
+       rpp: 2,
+       interval: 6000,
+       width: 248,
+       height: 300,
+       theme: {
+         shell: {
+           background: '#ffffff',
+           color: '#000000'
+         },
+         tweets: {
+           background: '#ffffff',
+           color: '#000000'
+         }
+       },
+       features: {
+         scrollbar: false,
+         loop: false,
+         live: false,
+         hashtags: true,
+         timestamp: true,
+         avatars: false,
+         behavior: 'all'
+       }
+     }).render().setUser('lesniewski').start();
+     </script>
+
+
+| Flickr_ Dopplr_ LinkedIn_ Facebook_ LJ_ Twitter_
+| Résumé (updated |resume_updated|): `HTML <resume.html>`_, `PDF <resume.pdf>`_, `plain text <resume.txt>`_.  Academic `CV <cv.pdf>`_.
+| Hobbies: photography_, SIPB_, bicycling_, cooking_, Isshinryu_, SCUBA_, `urban exploration`_, travel_ `...`_
+|
+| MIT_
+| CSAIL_
+| PDOS_
+| 32-G996_
+| `Cambridge MA USA`_
+| `+1 617 253 0004`_
+| `skype:chris.lesniewski`_ |skype-status|
+
+.. _Flickr:   http://flickr.com/people/ctl/
+.. _Dopplr:   http://www.dopplr.com/traveller/ctl
+.. _LinkedIn: http://www.linkedin.com/in/chrislesniewski
+.. _Facebook: http://www.facebook.com/lesniewski
+.. _LJ:       http://ctl.livejournal.com/profile
+.. _Twitter:  http://twitter.com/lesniewski
+
+.. include:: resume_updated.txt
+
+.. _photography:    http://flickr.com/photos/ctl/
+.. _SIPB:      http://stuff.mit.edu/sipb/
+.. _bicycling: http://www.sustrans.org.uk/default.asp?sID=1094747335046
+.. _cooking:   http://flickr.com/photos/jtu/1322149231/
+.. _Isshinryu: http://mit.edu/isshinryu/
+.. _SCUBA:     http://flickr.com/photos/ctl/416028866/
+.. _urban exploration: http://hacks.mit.edu/
+.. _travel:    http://chart.apis.google.com/chart?cht=t&chs=440x220&chtm=world&chf=bg,s,EAF7FE&chco=dddddd,000000,ff0000&chd=s:9999999999999999999&chld=CAUSUVVIFIFRITPLESCHUKVACNTWAWANLUISGB
+.. _...:       http://chart.apis.google.com/chart?cht=t&chs=440x220&chtm=usa&&&chf=bg,s,EAF7FE&chco=dddddd,000000,ff0000&chd=s:99999999999999999999999999999&chld=CACTDCFLLAMEMDMAMIMNMTNVNHNJNYNCOHORPARIVTVAWAWVWIHIWYIDDE
+
+.. _MIT:     http://mit.edu/
+.. _CSAIL:   http://csail.mit.edu/
+.. _PDOS:    http://pdos.csail.mit.edu/
+.. _32-G996: http://www.csail.mit.edu/resources/maps/9G/G996.gif
+.. _Cambridge MA USA: http://maps.google.com/maps?q=32%20Vassar%20Street%20Cambridge%20MA%2002139
+.. _+1 617 253 0004: tel:+1-617-253-0004
+.. _skype:chris.lesniewski: skype:chris.lesniewski?add
+.. |skype-status| image:: http://mystatus.skype.com/smallicon/chris.lesniewski
+   :alt:
+   :align: middle
+
+
+----------------------------------------------------------------------------
+
+
+I'm a graduate student in the `Parallel and Distributed Operating Systems`__
+group in the `Computer Science and Artificial Intelligence Laboratory`__ at
+`MIT`_.  My advisor is `Frans Kaashoek`_.
+
+__ http://pdos.csail.mit.edu/
+__ http://csail.mit.edu/
+.. _MIT: http://mit.edu/
+.. _Frans Kaashoek: http://pdos.csail.mit.edu/~kaashoek/
+
+I am interested in scaling and security for distributed Internet systems and
+networks.
+
+My goal is to develop fully decentralized systems which can potentially scale
+to billions of participants.  The challenge is maintaining the integrity and
+reliability of the system without any centralized authorities and despite
+concerted attacks by malicious participants with arbitrary numbers of
+pseudonyms.
+
+
+
+
+Research Projects
+-----------------
+
+- |Whanau|_: a scalable `distributed hash table`_ secure against powerful
+  `denial of service`_ attacks, including the `Sybil attack`_.
+- Eyo_: a storage system providing a consistent view of a user's
+  data (such as photos, music, and email) across her personal devices.
+- UIA_: naming and routing for personal mobile devices, such as laptops,
+  phones, cameras, and media players.
+- Alpaca_: a logic-based proof-carrying authorization framework which enables
+  extensible cryptographic protocols.
+- Barnraising_: a P2P content distribution network with untrusted caches.
+
+.. |Whanau| unicode:: Wh U+0101 nau
+.. _Whanau:      http://pdos.csail.mit.edu/whanau/
+.. _Eyo:         http://pdos.csail.mit.edu/eyo/
+.. _UIA:         http://pdos.csail.mit.edu/uia/
+.. _Alpaca:      http://pdos.csail.mit.edu/alpaca/
+.. _Barnraising: http://pdos.csail.mit.edu/barnraising/
+
+.. _distributed hash table:  http://pdos.csail.mit.edu/papers/chord:sigcomm01/
+.. _denial of service:       http://pdos.csail.mit.edu/papers/chord:security02/
+.. _Sybil attack:            http://www.cs.rice.edu/Conferences/IPTPS02/101.pdf
+
+
+
+
+Publications: PDF__, CrossTeX__, BibTeX__
+-----------------------------------------
+
+__ cv.pdf
+__ cv.xtx
+__ cv.bib
+
+.. Include the "Updated (date)" line from the CrossTeX file.
+.. include:: cv.xtx
+   :start-after: CrossTeX format.
+                 % 
+   :end-before:  %
+
+.. raw:: html
+   :file: cv_pubs.html
+
+
+----------------------------------------------------------------------------
+
+
+.. image:: images/jtu-no-aquarium-2007-12-05.jpg
+   :target: http://www.flickr.com/photos/jtu/2117640435/
+   :align: center
+
+
+.. raw:: html
+   :file: google-analytics.html

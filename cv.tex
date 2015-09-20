@@ -1,0 +1,340 @@
+\documentclass[margin,line,11pt]{resume}
+% vim:spell:
+
+%\usepackage{lucida}
+
+\oddsidemargin  -0.52in
+\evensidemargin -0.52in
+\textwidth       6.04in
+\parskip 0.25\baselineskip plus 0.75\baselineskip
+%\parsep 2pt plus 2pt
+%\clubpenalty  4000
+%\widowpenalty 4000
+
+
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0,0,0.5}
+\usepackage[colorlinks=true,citecolor=darkblue,linkcolor=darkblue,urlcolor=darkblue]{hyperref}
+
+\usepackage[protrusion=true,expansion=true]{microtype}
+%\usepackage{hyphenat}
+
+
+\let\oldsection=\section
+\renewcommand{\section}[1]{\oldsection{\small\sc #1}}
+
+
+\usepackage{xspace}
+\def\Whanau{Wh\=a\-nau\xspace}
+\hyphenation{Wha-nau}
+
+
+
+\begin{document}
+
+\name{\large Christopher T Lesniewski-Laas}
+\input{cv_updated.tex}
+\address{Updated \updated}
+
+\begin{resume}
+
+\section{Contact Information}
+MIT Computer Science and Artificial Intelligence Laboratory \hfill +1 617 253 0004      \\
+32 Vassar Street 32-G996                                    \hfill \texttt{ctl@mit.edu} \\ 
+Cambridge, MA 02139                                         \hfill \href{http://lesniewski.org}{lesniewski.org} \\
+
+
+\section{Research Interests}
+Distributed and decentralized computer systems, communication networks, social
+networks, scaling, and security.
+
+
+\section{Education}
+
+\textbf{Massachusetts Institute of Technology}
+
+Ph.D. candidate, Computer Science \hfill 2003--2010 (expected) \\
+Dissertation: \textsl{A Secure and Decentralized Distributed Hash Table} \\
+Advisor: Professor M. Frans Kaashoek
+
+M.Eng., Electrical Engineering and Computer Science \hfill 2001--2003 \\
+Thesis: \textsl{SSL Splitting and Barnraising: Cooperative Caching with Authenticity Guarantees}
+
+S.B., Electrical Engineering and Computer Science \hfill 1997--2003 \\
+S.B., Mathematics \hfill 1997--2001 \\
+Minor: Physics
+
+
+\section{Employment}
+\textbf{MIT CSAIL},
+Cambridge, MA
+\hfill
+2001--Present\\
+Research Assistant,
+Parallel and Distributed Operating Systems Group.
+
+\textbf{University of Cambridge Computer Lab},
+Cambridge, UK
+\hfill
+Summer 2004\\
+Visiting scholar, Cambridge-MIT Institute, \textsl{``Next generation peer-to-peer networks''} project.
+
+\textbf{Permabit},
+Cambridge, MA
+\hfill
+Summer--Fall 2001\\
+Designed and developed robust and scalable data storage system.
+
+\textbf{Microsoft Research},
+Redmond, WA
+\hfill
+Summer 2000\\
+Designed cryptographic protocols for smart card based access control.
+
+\textbf{SensAble Technologies},
+Cambridge, MA
+\hfill
+Summer 1999\\
+Developed hardware and software for a robotic haptic interface.
+
+\textbf{MIT AI Lab, Mathematics and Computation},
+Cambridge, MA
+\hfill
+Summer 1998\\
+Developed software to simulate amorphous computers.
+
+
+
+\section{Teaching}
+
+\textbf{Recitation Instructor} (position usually filled by faculty) \hfill Spring 2005\\
+\textbf{Head Teaching Assistant} \hfill Spring 2004\\
+\textbf{Teaching Assistant} \hfill Spring 2003\\
+MIT 6.033:
+\textsl{Computer Systems Engineering}
+
+\textbf{Lab Assistant} \hfill Fall 2000\\
+MIT 6.001:
+\textsl{Structure and Interpretation of Computer Programs}
+
+\newpage
+
+
+% Publications
+\input{cv.bbl}
+
+
+\section{External Talks}
+
+Yale University, New Haven, CT \hfill February 2010\\
+\textsl{A Sybil-proof Distributed Hash Table.}
+
+Microsoft Research, Redmond, WA \hfill December 2008\\
+\textsl{Defending against Sybils using the social network.}
+
+Nokia, Oulu, Finland \hfill June 2008\\
+\textsl{Compact Internet routing.}
+
+EuroSys Workshop on Social Network Systems, Glasgow, UK \hfill April 2008\\
+\textsl{A Sybil-proof DHT using a social network.}
+
+University of Cambridge Computer Laboratory, Cambridge, UK \hfill March 2008\\
+\textsl{A Sybil-proof DHT using a social network.}
+
+Nokia Research, Cambridge, MA \hfill January 2008\\
+\textsl{Alpaca, a really flexible authentication framework.}
+
+ACM Conference on Computer and Communications Security (CCS) \hfill October 2007\\
+\textsl{Extensible proof-carrying authorization in Alpaca.}
+
+IRIS Student Workshop \hfill November 2004\\
+\textsl{Does overlay routing security require admission control?}
+
+Johns Hopkins University, Baltimore, MD \hfill August 2004\\
+\textsl{SSL Splitting.}
+
+USENIX Security Symposium \hfill August 2003\\
+\textsl{SSL Splitting.}
+
+%Demos and posters?
+
+
+
+\section{Software Artifacts}
+
+\textbf{\Whanau}:
+secure and scalable distributed hash table.
+\hfill 2010 \\
+\textbf{Eyo}:
+device-transparent personal storage system.
+\hfill 2009 \\
+\textbf{Alpaca}:
+extensible proof-carrying-authorization framework library.
+\hfill 2007 \\
+\textbf{UIA}:
+naming and routing protocol suite for personal mobile devices.
+\hfill 2006 \\
+\textbf{Barnraising}:
+distributed caching Web proxy using SSL Splitting.
+\hfill 2003 \\
+\textbf{SSL Splitting}:
+drop-in replacement for OpenSSL library enabling untrusted caches.
+\hfill 2003 \\
+
+%AF, RSAGL, RTMP
+
+
+\section{Professional Activities}
+
+Program Committee, ACM Symposium on Applied Computing (Security Track),
+2007--2010.
+
+External reviews include:
+SOSP 2003,2005,2007,
+SIGCOMM 2003,
+IPTPS 2003,
+NDSS 2004,
+J. Computer Networks (2004),
+FAST 2005,
+CCS 2006,
+ISIT 2009,
+SNS 2009,
+Trans. Vehicular Tech (2009),
+TISSEC (2010).
+
+
+%\section{Awards}
+%Kosciuszko Foundation Fellowship \hfill 2001\\
+%Phi Beta Kappa \hfill 2001\\
+%Microsoft I-Campus grant \hfill 2000
+
+\section{Affiliations and Honors}
+%\section{Affiliations}
+ACM, USENIX, SIPB, Phi Beta Kappa, Kosciuszko Foundation Fellowship.
+
+
+
+%\section{References}
+
+%Prof. M. Frans Kaashoek\\
+%MIT CSAIL\\
+%32 Vassar St 32-G992\\
+%Cambridge, MA 02139\\
+%+1 617 253 7149\\
+%\texttt{kaashoek@csail.mit.edu}
+
+%Prof. Robert T. Morris\\
+%MIT CSAIL\\
+%32 Vassar St 32-G972\\
+%Cambridge, MA 02139\\
+%+1 617 253 5983\\
+%\texttt{rtm@csail.mit.edu}
+
+%Liskov
+%Karger
+
+
+\newpage
+
+\section{Research Projects}
+
+\textbf{\Whanau{} --- Sybil-proof Secure Distributed Hash Table}
+\hfill 2008--Present\\
+The topic of my dissertation, \Whanau is a secure
+Distributed Hash Table (DHT): a structured overlay which can quickly look up
+the node responsible for a given key.  DHTs have many applications, including
+key-value databases, filesystems, caching, rendezvous services, and multicast
+trees.  \Whanau uses the high connectivity of natural social networks
+to bootstrap a highly robust overlay network.  Any attacker must infiltrate a
+large fraction of the social network in order to cause any damage to the
+system's availability.  In previous DHTs, an attacker can cause a massive
+Denial of Service (DoS) simply by creating a large number of pseudonyms.
+Previous defenses against this ``Sybil attack'', a problem identified in 2001,
+required a centralized gatekeeper which is somehow able to distinguish the good
+identities from evil pseudonyms.  For example, Amazon's Dynamo DHT operates
+only within Amazon's data centers, and CoralCDN's DHT contains only PlanetLab
+servers.  \Whanau eliminates this admission control function, enabling truly
+decentralized and cooperative P2P DHT infrastructure to be built.
+
+This work appeared at SocialNets 2008~\cite{sybil:socialnets08}
+and will appear at NSDI 2010~\cite{whanau:nsdi10}.
+An earlier paper in ESORICS 2005~\cite{sybil:esorics05} introduced the social
+network model later used by \Whanau.
+
+\textbf{UIA --- User Information Architecture}
+\hfill 2004--2008\\
+\textbf{Eyo --- Device Transparent Storage}
+\hfill 2008--Present\\
+UIA is a routing and naming layer designed to organize users' many
+personal devices, such as laptops, phones, cameras, and media players, into a
+coherent cluster.  Users introduce their devices to each other using a secure
+physical rendezvous in which the devices exchange cryptographic keys;
+thereafter, UIA's routing layer ensures that the devices can find and contact
+each other whenever they are connected to the same network.  The user assigns
+personal names to each device and UIA propagates records appropriately to
+ensure that the namespace is consistent across all devices.  In addition, users
+can assign names to other users, and can apply these names recursively to
+navigate the social network.  For example, the name \texttt{phone.dad.bob}
+would refer to \emph{Bob's father's telephone}.  Since no device or server is
+designated as the ``master'' of a user's cluster, UIA's main challenge is
+securely handling updates to the cluster's membership, including cases in which
+some devices may be offline or acting maliciously.
+
+Eyo, a continuation of the UIA project, tackles the problem of
+providing a consistent view of a user's data objects (such as photos, music,
+and email) across all of her devices.  We call  this property \emph{device
+transparency}. As with UIA, the challenge is to provide a consistent view
+despite varying device capabilities and network connectivity, and without
+relying on a central master server.
+A device transparent storage system must track object updates, forward changes
+to running applications, handle concurrent updates, and proactively partition
+and replicate data across heterogeneous devices.
+Eyo addresses these requirements by separating objects' metadata from their
+content, and distributing all metadata to all devices.
+
+UIA appeared at IPTPS 2006~\cite{uia:iptps06}
+and OSDI 2006~\cite{uia:osdi06}.
+Eyo appeared at HotStorage 2009~\cite{eyo:hotstorage09}.
+
+
+\textbf{Alpaca --- Extensible Proof-Carrying Authorization}
+\hfill 2005--2008\\
+Alpaca is a logic-based Proof-Carrying Authorization
+framework.  It provides an API enabling network applications to state and prove
+logical assertions such as ``the principal Alice says to delete the file X''
+using cryptographic operations specified in the accompanying proof.  Since
+verifiers don't care how the proof is structured, as long as it is valid, this
+permits provers to use different cryptographic techniques (such as new hash
+functions or data transport mechanisms) without breaking compatibility with
+existing verifiers.  Alpaca's flexibility stands in contrast to cryptographic
+protocols such as Kerberos and TLS, which can only be updated by installing new
+software.  Crucially, Alpaca extensions do not need to be approved by any
+central authority: any user can unilaterally deploy any extension as long as it
+produces the correct type of proofs.  Extensions preserve security because they
+do not expand users' privileges, they simply enable users to apply their
+existing privileges in novel ways.
+
+This work appeared at CCS 2007~\cite{alpaca:ccs07}.
+
+\textbf{Barnraising and SSL Splitting --- Untrusted CDN}
+\hfill 2002--2003\\
+Barnraising is a P2P content distribution network (CDN) which,
+like the later system CoralCDN, enables Web sites to delegate
+some of their load to a distributed network of cooperating cache hosts.  Unlike
+CoralCDN, Barnraising uses a novel technique called \emph{SSL Splitting} to
+securely serve data using untrusted caches.  Because a malicious cache cannot
+send clients bogus data, Barnraising can safely permit any Internet host to
+contribute cache space; on the other hand, CoralCDN is limited to the
+resources available from the centrally-controlled (and under-provisioned)
+PlanetLab.
+
+The SSL Splitting library is installed on a Web server as a drop-in replacement
+for the popular OpenSSL library, enabling the server to communicate with the
+untrusted Barnraising cache nodes.  SSL Splitting does not require any changes
+to Web clients.
+
+This work appeared at USENIX Security 2003~\cite{ssl-splitting:usenixsecurity03}
+and in \textit{Computer Networks,\/} August 2005~\cite{ssl-splitting:compnet05}.
+
+\end{resume}
+\end{document}

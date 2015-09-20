@@ -1,0 +1,8 @@
+*         { font-family: sans-serif ; }
+pre, .pre { font-family: monospace ; }
+
+hr.header { display: none; }
+
+.align-right { text-align: right; }
+.float-right { float: right; clear: right; margin: 0 0 4px 4px; }
+.twtr-widget { float: right; clear: right; margin: 0 0 4px 4px; border: 1px solid #999999; }
