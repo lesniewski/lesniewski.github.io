@@ -44,6 +44,10 @@ cv.bbl: cv.xtx
 	  --titlecase=as-is --sort=none \
 	  --heading=category --no-field=howpublished \
 	  --link Abstract --link HTML --link PDF --link PS $<
+#         $(XTX) --style cv_style --cite-by=number --break-lines \
+#           --titlecase=as-is --sort=none \
+#           --heading=category --no-field=howpublished \
+#           --link Abstract --link HTML --link PDF --link PS $<
 
 cv_updated.tex: cv.xtx
 	echo -n '\def\updated{' > $@
@@ -60,10 +64,11 @@ cv_pubs.html: cv_pubs.tex cv_pubs.bbl
 	perl -i -pe 'BEGIN{undef$$/} m:<DL CLASS="thebibliography">.*</DL>:s and $$_=$$&' $@
 
 cv_pubs.bbl: cv_pubs.xtx
-	$(XTX) --style cv_style --blank-labels --break-lines \
-	  --titlecase=as-is --sort=none \
-	  --no-field=category \
-	  --link Abstract --link HTML --link PDF --link PS $<
+	$(XTX) --style cv_style --titlecase=default --sort=none $<
+#         $(XTX) --style cv_style --blank-labels --break-lines \
+#           --titlecase=as-is --sort=none \
+#           --no-field=category \
+#           --link Abstract --link HTML --link PDF --link PS $<
 
 cv_pubs.xtx: cv.xtx
 	ln -s $< $@
